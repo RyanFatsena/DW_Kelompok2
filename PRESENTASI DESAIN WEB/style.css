@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@200&display=swap');
+/* HOME */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(gbrmenu.jpg);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.navbaar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 150, 151, 0.596);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.navbaar i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.navbaar h6 {
+    margin-top: 3px;
+    padding: 10px;
+}
+
+.navbaar h6 a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbaar a:hover {
+    color: white;
+    transition: .3s linear;
+}
+
+.navbaar h6 ul {
+    position: absolute;
+    top: 50px;
+    width: 118px;
+    background-color: rgba(128, 150, 151, 0.596);
+    margin-left: 27px;
+    padding-left: 10px;
+    display: none;
+}
+
+.navbaar h6 ul li {
+    list-style-type: none;
+}
+
+.box {
+    width: 60%;
+    height: 70%;
+    background-color: rgba(80, 80, 80, 0.5);
+    top: 17%;
+    left: 18%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    transform: translate(-50%), -50%;
+}
+
+.judul {
+    position: absolute;
+    top: 30%;
+    width: 70%;
+    text-align: center;
+    left: 17%;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 15px;
+}
+
+.judul2 {
+    position: absolute;
+    top: 40%;
+    width: 70%;
+    text-align: center;
+    left: 17%;
+    color: rgb(255, 255, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.navbar {
+    position: absolute;
+    top: 75%;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.menubar {
+    display: inline-block;
+    width: 140px;
+    height: auto;
+    background: rgba(128, 150, 151, 0.596);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: blanchedalmond;
+}
+
+.menubar:hover {
+    background-color: rgba(41, 49, 47, 0.431);
+    transition: 0.5s linear;
+}
+
+.sosmed {
+    right: 40px;
+    top: 0px;
+    position: fixed;
+    width: 50px;
+    height: 1000px;
+}
+
+.icon {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.tombol {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(128, 150, 151, 0.596);
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    color: rgb(209, 221, 218);
+}
+
+.tombol i {
+    transition: 0.5s linear;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.tombol:hover i {
+    transform: scale(1.2);
+    color: rgb(151, 158, 154);
+}
+
+/*MENU MAKANAN MINUMAN*/
+
+.box-menu{
+    width: 80%;
+    height: 90%;
+    background-color: rgba(80, 80, 80, 0.5);
+    top: 5%;
+    left: 10%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    transform: translate(-50%), -50%;
+}
+
+pre{
+    font-size: 11pt;
+}
+.box-judul{
+    width: 40%;
+    background-color: rgba(128, 150, 151, 0.794);
+    position: absolute;
+    top: 5%;
+    left: 29.4%;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tabs{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    top: 20%;
+    list-style-type: none;
+    background-color: rgba(128, 150, 151, 0.794);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#tabs li {
+    background-color: rgba(128, 150, 151, 0);
+    border-style: none;
+    border-radius: 2px;
+}
+#tabs li a{
+    background-color: rgba(86, 99, 100, 0.794);
+    border-radius: 2px;
+}
+#tabs li a:hover{
+    background-color: rgba(128, 150, 151, 0.794);
+}
+
+/* RESERVATION FORM */
+
+.card-content {
+    height: 70%;
+}
+
+.card-content h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 85px 0 10px 0;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.form-row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select,
+form input {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    font-weight: 300;
+}
+
+form a {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-weight: 300;
+    text-align: center;
+}
+
+form input[type=text],
+form input[type=number],
+form input::placeholder,
+select {
+    color: #b2b2b2;
+}
+
+form a[type=submit] {
+    background: #aaaba9;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form a[type=submit]:hover {
+    opacity: 0.7;
+}
